@@ -1,0 +1,1 @@
+let burger=document.querySelector(".burger"),panel=document.querySelector(".panel__nav");burger.addEventListener("click",()=>{panel.classList.toggle("active"),burger.classList.toggle("active")});
